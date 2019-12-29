@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SetNotificationPreferencesRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+<!-- Use the Developer portal or the <ApplicationDeliveryPreferences> container to set 
+     the Application delivery settings -->
+  <RequesterCredentials>
+    <eBayAuthToken>{0}</eBayAuthToken>
+  </RequesterCredentials>
+	<ErrorLanguage>en_US</ErrorLanguage>
+	<WarningLevel>High</WarningLevel>
+<ApplicationDeliveryPreferences>
+   <!--Enter an email address-->
+<AlertEmail>mailto://{2}</AlertEmail>
+<AlertEnable>{1}</AlertEnable>
+<ApplicationEnable>{1}</ApplicationEnable>
+<ApplicationURL>{3}</ApplicationURL>
+<DeviceType>Platform</DeviceType>
+</ApplicationDeliveryPreferences> -->
+<!-- Use the UserDeliveryPreferenceArray to enable to the user for various Event -->
+<UserDeliveryPreferenceArray>
+<NotificationEnable><EventType>BidReceived</EventType>
+<EventEnable>Enable</EventEnable>
+</NotificationEnable>
+<NotificationEnable><EventType>Feedback</EventType>
+<EventEnable>Enable</EventEnable>
+</NotificationEnable>
+<NotificationEnable><EventType>EndOfAuction</EventType>
+<EventEnable>Enable</EventEnable>
+</NotificationEnable>
+<NotificationEnable><EventType>ItemListed</EventType>
+<EventEnable>Enable</EventEnable>
+</NotificationEnable>
+</UserDeliveryPreferenceArray>
+</SetNotificationPreferencesRequest>

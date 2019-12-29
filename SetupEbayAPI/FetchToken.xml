@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FetchTokenRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+   <!-- Enter the SessionID created for the user for whom the token needs to be retrieved -->
+ <SessionID>{0}</SessionID>
+</FetchTokenRequest>

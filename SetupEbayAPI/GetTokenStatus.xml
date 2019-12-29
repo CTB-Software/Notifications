@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GetTokenStatusRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+  <RequesterCredentials>
+    <eBayAuthToken>{0}</eBayAuthToken>
+  </RequesterCredentials>
+	<ErrorLanguage>en_US</ErrorLanguage>
+	<WarningLevel>High</WarningLevel>
+</GetTokenStatusRequest>
