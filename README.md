@@ -1,2 +1,1 @@
-# EbayNotifications
-Get Ebay Notifications
+# Notifications Receiver For Windows 10
